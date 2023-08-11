@@ -1,8 +1,8 @@
 const allowedCors = [
   'http://spanko.movies-explorer.nomoredomains.rocks',
   'https://spanko.movies-explorer.nomoredomains.rocks',
-  'http://localhost:3001',
-  'https://localhost:3001',
+  'http://localhost:3000',
+  'https://localhost:3000',
 ];
 
 const corsHandler = (req, res, next) => {
